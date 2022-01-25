@@ -1,6 +1,6 @@
-let numeroUtente = ((((Math.random() / 2) * 10) + 1).toFixed(0));
+let numeroUtente = (((Math.random() * 5) + 1).toFixed(0));
 console.log(numeroUtente);
-let numeroPC = ((((Math.random() / 2) * 10) + 1).toFixed(0));
+let numeroPC = (((Math.random() * 5) + 1).toFixed(0));
 console.log(numeroPC);
 
 if (numeroUtente < numeroPC) {
